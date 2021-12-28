@@ -1,26 +1,3 @@
-"""
-Desafio
-Crie uma função que receba um numero qualquer e encontre o maior numero formado por digitos consecutivos naquele numero
-"""
-"""
-EX1
-entrada - 53590
-saida - 90
-
-EX2
-entrada - 674030098567819
-saida - 5678
-
-EX3
-entrada - 9012364509789
-saida - 90123
-
-EX4
-entrada - 9067
-saida - 90
-"""
-
-
 def pegarMaiorSequencia():
     valor = str(entrada).strip()
     maiorSequencia = ""
